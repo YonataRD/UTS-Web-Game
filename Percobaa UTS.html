@@ -4,10 +4,13 @@
   <body>
     <main>
       <section>
-        <img
-          srcset="1080X1920(Portrait).png 1080w, 1920X1080(Landscape).png 1920w"
-          alt="Digital Signage STMM"
-        />
+        <picture>
+          <source
+            media="(min-width: 1080px)"
+            srcset="1920X1080(Landscape).png"
+          />
+          <img src="1080X1920(Portrait).png" />
+        </picture>
       </section>
     </main>
   </body>
