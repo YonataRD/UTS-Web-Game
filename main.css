@@ -1,1 +1,5 @@
-1
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    inline-size: 100%;
+  }
